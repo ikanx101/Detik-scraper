@@ -41,7 +41,7 @@ jobs:
 
       # kita buat github action menjalankan skrip scrape.R
       - name: Run skrip R
-        run: Rscript -e 'source("Scrape.R")'
+        run: Rscript -e 'source("Scraper.R")'
       
       # berikutnya kita akan commit dan push ke repo
       - name: Commit results
